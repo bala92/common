@@ -6,8 +6,7 @@ export interface PostUpdatedEvent {
     id: string;
     version: number;
     title: string;
-    price: number;
+    imgUrl: string;
     userId: string;
-    orderId?: string;
   };
 }
